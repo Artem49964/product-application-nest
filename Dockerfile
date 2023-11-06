@@ -1,8 +1,8 @@
 FROM node:18-alpine
 
-WORKDIR /backend
+WORKDIR /app
 
-COPY backend/package*.json ./
+COPY package*.json ./
 
 RUN npm install
 
